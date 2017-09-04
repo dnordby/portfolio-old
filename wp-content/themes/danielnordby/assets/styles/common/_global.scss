@@ -1,0 +1,35 @@
+* {
+  backface-visibility: hidden !important;
+  box-sizing: border-box !important;
+	&:active, &:focus, &:hover, &:visited {
+		outline: none !important;
+	}
+}
+
+a {
+  @include underline($grey, $blue);
+  color: $blue;
+  position: relative;
+}
+
+html, body {
+  background-color: $extra-light-grey;
+}
+
+body {
+	font-family: $RalewayRegular;
+  .wrap.container-fluid {
+    margin-top: 356px;
+    padding-bottom: $large-top;
+  }
+}
+
+.img-16-9 {
+  @include aspect-ratio(16, 9);
+}
+.img-3-4 {
+  @include aspect-ratio(3, 4);
+}
+.img-4-3 {
+  @include aspect-ratio(4, 3);
+}

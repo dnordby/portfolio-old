@@ -1,0 +1,36 @@
+h1, h2, h3, .h3, h4, h5, p {
+	line-height: 1.5 !important;
+}
+
+h1, h2 {
+	font-family: $Syncopate !important;
+}
+
+h1 {
+	font-size: 24px !important;
+}
+
+.h1 {
+	@extend h1;
+	font-family: $RalewayRegular !important;
+	letter-spacing: 0.5px;
+}
+
+h3, .h3 {
+	font-family: $RalewayRegular !important;
+	letter-spacing: 0.5px;
+}
+
+h4, .h4 {
+	font-family: $RalewaySemiBold !important;
+	text-transform: uppercase;
+}
+
+h5, .h5 {
+	font-family: $RalewaySemiBold !important;
+	text-transform: uppercase;
+}
+
+p {
+	@extend .h3;
+}
