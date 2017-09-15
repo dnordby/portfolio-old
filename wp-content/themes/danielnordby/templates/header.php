@@ -1,9 +1,10 @@
 <header class="container-fluid">
-  <div class="row">
+  <div class="row full-bleed">
     <div class="col-xs-12 header">
       <div class="scrolled-logo-wrapper">
         <a href="<?= esc_url(home_url('/')); ?>">
-          <h1>Daniel Nordby</h1>
+          <h1 class="hidden-sm hidden-md hidden-lg">Dn</h1>
+          <h1 class="hidden-xs">Daniel Nordby</h1>
         </a>
         <nav class="scrolled-nav">
           <?php wp_nav_menu( array('menu' => 'Scrolled Primary Navigation', 'container_class' => 'scrolled-primary-navigation') ); ?>

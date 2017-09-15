@@ -1,3 +1,7 @@
+header.container-fluid {
+	height: 356px;
+}
+
 .header {
 	background-color: $blue;
 	color: $white;
@@ -52,6 +56,7 @@
 					a {
 						@extend .h3;
 						@include underline($white, $white);
+						color: $white;
 						text-transform: uppercase;
 					}
 				}
@@ -133,6 +138,20 @@
 		.scrolltop-wrapper {
 			opacity: 0;
 			visibility: hidden;
+		}
+	}
+
+	@media (max-width: 767px) {
+		padding: 0 $xsmall-top;
+		.scrolled-logo-wrapper,
+		.scrolltop-wrapper {
+			width: calc(100% - 48px);
+		}
+		.scrolled-logo-wrapper {
+			left: 24px;
+			.scrolled-primary-navigation {
+				right: 0;		
+			}
 		}
 	}
 }

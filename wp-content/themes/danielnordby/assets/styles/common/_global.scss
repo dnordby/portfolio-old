@@ -19,7 +19,6 @@ html, body {
 body {
 	font-family: $RalewayRegular;
   .wrap.container-fluid {
-    margin-top: 356px;
     padding-bottom: $large-top;
   }
 }
@@ -32,4 +31,25 @@ body {
 }
 .img-4-3 {
   @include aspect-ratio(4, 3);
+}
+
+.hidden-xs {
+  @media (max-width: 767px) {
+    display: none !important;
+  }
+}
+.hidden-sm {
+  @media (min-width: 768px) and (max-width: 991px) {
+    display: none !important;
+  } 
+}
+.hidden-md {
+  @media (min-width: 992px) and (max-width: 1199px) {
+    display: none !important;
+  }  
+}
+.hidden-lg {
+  @media (min-width: 1200px) {
+    display: none !important;
+  }
 }

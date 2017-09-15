@@ -1,33 +1,42 @@
+body {
+	font-size: 1rem;
+}
+
 h1, h2, h3, .h3, h4, h5, p {
-	line-height: 1.5 !important;
+	line-height: 1.5;
+	margin: 0;
+  margin-bottom: .5rem;
 }
 
 h1, h2 {
-	font-family: $Syncopate !important;
+	font-family: $Syncopate;
 }
 
 h1 {
-	font-size: 24px !important;
+	font-size: 24px;
 }
 
 .h1 {
 	@extend h1;
-	font-family: $RalewayRegular !important;
+	font-family: $RalewayRegular;
 	letter-spacing: 0.5px;
 }
 
 h3, .h3 {
-	font-family: $RalewayRegular !important;
+	font-family: $RalewayRegular;
+	font-size: 1.75rem;
 	letter-spacing: 0.5px;
 }
 
 h4, .h4 {
-	font-family: $RalewaySemiBold !important;
+	font-family: $RalewaySemiBold;
+  font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
 h5, .h5 {
-	font-family: $RalewaySemiBold !important;
+	font-family: $RalewaySemiBold;
+  font-size: 1.25rem;
 	text-transform: uppercase;
 }
 
