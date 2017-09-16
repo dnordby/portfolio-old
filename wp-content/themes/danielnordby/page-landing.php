@@ -21,7 +21,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 img-16-9 portfolio-link">
 			<a href="http://greenwichlibrary.org" target="_blank">
-				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/greenwich.png">
+				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/greenwich-library.png">
 				<div class="overlay">
 					<p class="h3">Greenwich Library
 				</div>
@@ -29,7 +29,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-5 col-lg-5 img-16-9 portfolio-link">
 			<a href="https://oomphhome.com" target="_blank">
-				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/oomph.png">
+				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/oomph-home.png">
 				<div class="overlay">
 					<p class="h3">oomph Home Furnishings</p>
 				</div>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 img-16-9 portfolio-link">
 			<a href="https://where-mountains-meet.myshopify.com" target="_blank">
-				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/wMM.png">
+				<img src="<?php echo(get_template_directory_uri()) ?>/assets/images/where-mountains-meet.png">
 				<div class="overlay">
 					<p class="h3">where Mountains Meet</p>
 				</div>

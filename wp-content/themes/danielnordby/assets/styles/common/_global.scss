@@ -33,6 +33,44 @@ body {
   @include aspect-ratio(4, 3);
 }
 
+.xl-top {
+  margin-top: $xlarge-top;
+}
+.lg-top {
+  margin-top: $large-top;
+}
+.md-top {
+  margin-top: $medium-top;
+}
+.sm-top {
+  margin-top: $small-top;
+}
+.xs-top {
+  margin-top: $xsmall-top;
+}
+.xxs-top {
+  margin-top: $xxsmall-top;
+}
+
+.xl-bottom {
+  margin-bottom: $xlarge-top;
+}
+.lg-bottom {
+  margin-bottom: $large-top;
+}
+.md-bottom {
+  margin-bottom: $medium-top;
+}
+.sm-bottom {
+  margin-bottom: $small-top;
+}
+.xs-bottom {
+  margin-bottom: $xsmall-top;
+}
+.xxs-bottom {
+  margin-bottom: $xxsmall-top;
+}
+
 .hidden-xs {
   @media (max-width: 767px) {
     display: none !important;

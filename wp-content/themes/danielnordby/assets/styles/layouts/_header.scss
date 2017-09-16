@@ -26,6 +26,7 @@ header.container-fluid {
 		transition: all 0.3s ease;
 		visibility: hidden;
 		width: calc(100% - 96px);
+		z-index: 0;
 		.scrolled-nav, 
 		a {
 			display: inline-block;
@@ -134,6 +135,7 @@ header.container-fluid {
 			opacity: 1;
 			visibility: visible;
 			transition: all 0.3s ease;
+			z-index: 1;
 		}
 		.scrolltop-wrapper {
 			opacity: 0;

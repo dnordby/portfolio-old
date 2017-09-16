@@ -5,7 +5,7 @@
 			display: inline-block;
 			text-align: center;
 			svg,
-			h5 {
+			.h5 {
 				color: $blue;
 				display: block;
 			}
@@ -16,8 +16,37 @@
 				position: relative;
 				width: 48px;
 			}
-			h5 {
+			.h5 {
 				margin-top: $xxsmall-top;
+			}
+		}
+		.h1 {
+			color: $blue;
+			text-align: center;
+		}
+		h1, h2, h3, h4 {
+			color: $blue;
+		}
+		ul {
+			list-style: initial;
+			li {
+				@extend p;
+				margin: 0 0 $xxsmall-top $xsmall-top;
+				padding: initial;
+				span {
+					color: $blue;
+					font-family: $Syncopate;
+				}
+			}
+		}
+		.h4 {
+			margin-top: $xsmall-top;
+			text-align: center;
+			a {
+				@include underline($grey, $grey);
+				color: $blue;
+				display: inline-block;
+				position: relative;
 			}
 		}
 	}	
